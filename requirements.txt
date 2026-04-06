@@ -1,0 +1,5 @@
+httpx
+python-dotenv
+asyncio
+pydantic
+PyJWT
