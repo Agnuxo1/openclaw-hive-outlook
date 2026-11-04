@@ -1,0 +1,71 @@
+{
+  "schema": "project-provenance-v1",
+  "project": {
+    "name": "openclaw-hive-outlook",
+    "display_name": "OpenCLAW Hive Outlook",
+    "canonical_url": "https://github.com/Agnuxo1/openclaw-hive-outlook",
+    "repository_created_at": "2026-04-06T09:46:52Z",
+    "default_branch": "main",
+    "visibility": "public"
+  },
+  "author": {
+    "name": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063"
+  },
+  "copyright_year": 2026,
+  "recorded_on": "2026-11-04",
+  "authorship_evidence": {
+    "source_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+    "commit_author": "Francisco Angulo de Lafuente",
+    "authored_at": "2026-04-06T09:47:01Z",
+    "signed": false,
+    "linked_github_author": false,
+    "assessment": "All original tracked paths first appear in the same root commit attributed to the named author. This supports repository-level attribution but does not independently verify every passage or third-party rights."
+  },
+  "license_scope": "Unresolved. The original tree has no LICENSE file or SPDX declaration. This attribution record grants no license. Third-party dependencies, services, and other material are outside any implied grant.",
+  "external_scope": {
+    "contest": "No contest reference identified in the tracked tree.",
+    "third_party_dependencies": "requirements.txt lists dependencies and is not included in the original-source attribution baseline.",
+    "network": "Source includes GitHub, LLM provider, and P2P API clients; they were not executed."
+  },
+  "coverage": {
+    "source_and_config_files_with_headers": 14,
+    "files": [
+      "activate_hive.py",
+      "advanced_agent_base.py",
+      "check_runs.py",
+      "get_logs.py",
+      "identities.py",
+      "llm_cerebras.py",
+      "llm_groq.py",
+      "llm_qwen.py",
+      "main.py",
+      "p2p.py",
+      "quick_check.py",
+      "verify_hive.py",
+      "Dockerfile",
+      "agent-loop.yml"
+    ]
+  },
+  "skipped_paths": [
+    {
+      "path": ".gitignore",
+      "reason": "Generic boilerplate; unchanged."
+    },
+    {
+      "path": "requirements.txt",
+      "reason": "Third-party dependency manifest; unchanged."
+    },
+    {
+      "path": "deploy_hive.ps1",
+      "reason": "Not modified in this attribution commit; separate owner review remains pending."
+    }
+  ],
+  "execution_review": {
+    "scripts_executed": false,
+    "live_api_calls": false,
+    "deployments_or_workflows_run": false,
+    "unit_test_suite_found": false,
+    "reason": "Several scripts call external APIs; static checks only."
+  }
+}

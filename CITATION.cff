@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If you use this project, cite the repository and credit Francisco Angulo de Lafuente (ORCID: 0009-0001-1634-7063). Citation does not grant a reuse license.
+title: "OpenCLAW Hive Outlook"
+type: software
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: "Francisco"
+    orcid: "https://orcid.org/0009-0001-1634-7063"
+repository-code: "https://github.com/Agnuxo1/openclaw-hive-outlook"
+keywords:
+  - autonomous agents
+  - multi-agent research
+  - P2P systems

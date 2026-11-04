@@ -1,0 +1,391 @@
+{
+  "baseline_format": "Repository attribution baseline",
+  "recorded_on": "2026-11-04",
+  "canonical_url": "https://github.com/Agnuxo1/openclaw-hive-outlook",
+  "original_commit": {
+    "sha": "66933cf26930d89a761081e0c48d43c780ddf16c",
+    "author": "Francisco Angulo de Lafuente",
+    "authored_at": "2026-04-06T09:47:01Z",
+    "signed": false
+  },
+  "method": "SHA-256 is computed over exact UTF-8 bytes fetched from the original root commit. Each Git blob SHA-1 is recomputed and cross-checked against GitHub. Selected excerpts use 1-based original line numbers. The baseline file does not fingerprint itself; matches are leads for manual review, not proof of authorship or infringement.",
+  "files": [
+    {
+      "path": "activate_hive.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "1691098c74d058c0616381f9f8e4cd277b447c07",
+      "github_blob_sha1_crosscheck": "1691098c74d058c0616381f9f8e4cd277b447c07",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "284971211c4d5de1b662398125f3c0bf0fcddad92f331244b8b8f6c393477d9c",
+      "size_bytes": 2530,
+      "line_count": 80,
+      "selected_passages": [
+        {
+          "start_line": 28,
+          "end_line": 28,
+          "excerpt": "def set_secret(repo, name, value):"
+        },
+        {
+          "start_line": 53,
+          "end_line": 53,
+          "excerpt": "def trigger_workflow(repo):"
+        },
+        {
+          "start_line": 68,
+          "end_line": 68,
+          "excerpt": "def main():"
+        }
+      ]
+    },
+    {
+      "path": "advanced_agent_base.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "57520edd74f100bf1e6ad6ace620d03704d97c52",
+      "github_blob_sha1_crosscheck": "57520edd74f100bf1e6ad6ace620d03704d97c52",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "fae2b96fcff93dea6663be422aad39d0fbb8406a1c31327fb3c58fb755ce6523",
+      "size_bytes": 5777,
+      "line_count": 130,
+      "selected_passages": [
+        {
+          "start_line": 50,
+          "end_line": 50,
+          "excerpt": "    async def run_phase_research(self):"
+        },
+        {
+          "start_line": 81,
+          "end_line": 81,
+          "excerpt": "    async def run_phase_validate(self):"
+        },
+        {
+          "start_line": 98,
+          "end_line": 98,
+          "excerpt": "    async def run_loop(self):"
+        }
+      ]
+    },
+    {
+      "path": "check_runs.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "1476ba2ac29e920830bdb7e8caa8709bcb533001",
+      "github_blob_sha1_crosscheck": "1476ba2ac29e920830bdb7e8caa8709bcb533001",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "f0e2ebc9032dfdecc7adf0f15870d144acf7d8cd2da0506b343303a5f2debe6b",
+      "size_bytes": 1124,
+      "line_count": 35,
+      "selected_passages": [
+        {
+          "start_line": 12,
+          "end_line": 12,
+          "excerpt": "def get_runs(repo):"
+        },
+        {
+          "start_line": 22,
+          "end_line": 22,
+          "excerpt": "def main():"
+        }
+      ]
+    },
+    {
+      "path": "get_logs.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "1d2d1eb7ed0b6b068aaff56900b346f6efee8285",
+      "github_blob_sha1_crosscheck": "1d2d1eb7ed0b6b068aaff56900b346f6efee8285",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "1d4987b3a2b6492164554b03d072a49a2a37ced5f76a4d8458f560d5043d6b2f",
+      "size_bytes": 1598,
+      "line_count": 49,
+      "selected_passages": [
+        {
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "import zipfile"
+        },
+        {
+          "start_line": 17,
+          "end_line": 17,
+          "excerpt": "def main():"
+        },
+        {
+          "start_line": 39,
+          "end_line": 39,
+          "excerpt": "    with zipfile.ZipFile(io.BytesIO(r.content)) as z:"
+        }
+      ]
+    },
+    {
+      "path": "identities.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "31fe828cce6265d3ae048e437b4c80f011258f96",
+      "github_blob_sha1_crosscheck": "31fe828cce6265d3ae048e437b4c80f011258f96",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "47d291b2ad3167d36d4658d4d631929686a138287cb4fc59e4672ff54707820b",
+      "size_bytes": 3872,
+      "line_count": 54,
+      "selected_passages": [
+        {
+          "start_line": 1,
+          "end_line": 1,
+          "excerpt": "# Francisco Research Promotion Mission"
+        },
+        {
+          "start_line": 2,
+          "end_line": 2,
+          "excerpt": "IDENTITIES = {"
+        }
+      ]
+    },
+    {
+      "path": "llm_cerebras.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "a0c401b52ec365ae6d020d515ecdacd6fdefd056",
+      "github_blob_sha1_crosscheck": "a0c401b52ec365ae6d020d515ecdacd6fdefd056",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "dee753255e7b5c0765b2411bbaa948ffc79a240f3c10761c5b8a858db7b3eb14",
+      "size_bytes": 1854,
+      "line_count": 49,
+      "selected_passages": [
+        {
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "class CerebrasClient:"
+        },
+        {
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "        self.api_keys = ["
+        },
+        {
+          "start_line": 19,
+          "end_line": 19,
+          "excerpt": "    async def chat_completion(self, messages, temperature=0.7, max_tokens=1000):"
+        }
+      ]
+    },
+    {
+      "path": "llm_groq.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "c3bf30e1840898ee884f89dc6066bee53078c3e9",
+      "github_blob_sha1_crosscheck": "c3bf30e1840898ee884f89dc6066bee53078c3e9",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "697630aded66ad7d7d55f50c8477859b53929371de8a08f4ebfa521d37546209",
+      "size_bytes": 1297,
+      "line_count": 39,
+      "selected_passages": [
+        {
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "class GroqClient:"
+        },
+        {
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "        self.api_key = os.getenv(\"GROQ_API_KEY\")"
+        },
+        {
+          "start_line": 14,
+          "end_line": 14,
+          "excerpt": "    async def chat_completion(self, messages, temperature=0.7, max_tokens=1000):"
+        }
+      ]
+    },
+    {
+      "path": "llm_qwen.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "2d26ae589d04bd4011a8f7e69d40711389e702c8",
+      "github_blob_sha1_crosscheck": "2d26ae589d04bd4011a8f7e69d40711389e702c8",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "8533e6a7942744186d1a797d28631b2526ec7cc2588bc909cf16a6558f4f1db5",
+      "size_bytes": 1405,
+      "line_count": 40,
+      "selected_passages": [
+        {
+          "start_line": 8,
+          "end_line": 8,
+          "excerpt": "class QwenClient:"
+        },
+        {
+          "start_line": 10,
+          "end_line": 10,
+          "excerpt": "        self.api_key = os.getenv(\"QWEN_API_KEY\")"
+        },
+        {
+          "start_line": 15,
+          "end_line": 15,
+          "excerpt": "    async def chat_completion(self, messages, temperature=0.7, max_tokens=1000):"
+        }
+      ]
+    },
+    {
+      "path": "main.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "c8fe8efe5763970e66b16a079ff4bc00a68f9b36",
+      "github_blob_sha1_crosscheck": "c8fe8efe5763970e66b16a079ff4bc00a68f9b36",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "a9700e85755b2a4504286909acd24945b33dfe1359957554276445991854902e",
+      "size_bytes": 653,
+      "line_count": 25,
+      "selected_passages": [
+        {
+          "start_line": 7,
+          "end_line": 7,
+          "excerpt": "AGENT_KEY = \"PLACEHOLDER_AGENT_KEY\""
+        },
+        {
+          "start_line": 9,
+          "end_line": 9,
+          "excerpt": "async def main():"
+        },
+        {
+          "start_line": 21,
+          "end_line": 21,
+          "excerpt": "    await agent.run_loop()"
+        }
+      ]
+    },
+    {
+      "path": "p2p.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "3caa82e55335878b9003dfa050938c207e027c7a",
+      "github_blob_sha1_crosscheck": "3caa82e55335878b9003dfa050938c207e027c7a",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "d23f596aef77ebbe5dd84ddbef1596141fd9715fd380fd60dd3b2417288c9b5c",
+      "size_bytes": 5621,
+      "line_count": 135,
+      "selected_passages": [
+        {
+          "start_line": 17,
+          "end_line": 17,
+          "excerpt": "class P2PClient:"
+        },
+        {
+          "start_line": 66,
+          "end_line": 66,
+          "excerpt": "    def search_papers(self, query: str) -> dict:"
+        },
+        {
+          "start_line": 84,
+          "end_line": 84,
+          "excerpt": "    def publish_paper(self, paper: dict) -> dict:"
+        }
+      ]
+    },
+    {
+      "path": "quick_check.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "7050c6a382baebc8cc47200fbc27fbf15e2515e1",
+      "github_blob_sha1_crosscheck": "7050c6a382baebc8cc47200fbc27fbf15e2515e1",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "fb9f8bd183bc0103cff99a6cfd52ae7e00a908cfc965a8da89e77ae84ffd0967",
+      "size_bytes": 342,
+      "line_count": 11,
+      "selected_passages": [
+        {
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "    outlook = [a for a in agents if 'agnuxo' in a.get('id', '').lower()]"
+        },
+        {
+          "start_line": 3,
+          "end_line": 3,
+          "excerpt": "if r.status_code == 200:"
+        }
+      ]
+    },
+    {
+      "path": "verify_hive.py",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "fb77e4cfecb0ab29747522a4b6bf1356e7ecd30b",
+      "github_blob_sha1_crosscheck": "fb77e4cfecb0ab29747522a4b6bf1356e7ecd30b",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "f90a8d15f1b97eb11e24ced5801c4a45128f622e167822c39db9546bfa90a0b7",
+      "size_bytes": 1380,
+      "line_count": 48,
+      "selected_passages": [
+        {
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "def check_agents():"
+        },
+        {
+          "start_line": 30,
+          "end_line": 30,
+          "excerpt": "            if aid in REPOS and aid not in found_set:"
+        },
+        {
+          "start_line": 20,
+          "end_line": 20,
+          "excerpt": "def main():"
+        }
+      ]
+    },
+    {
+      "path": "Dockerfile",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "18e40ab95253b1a398c1b08984fe32269cc948ee",
+      "github_blob_sha1_crosscheck": "18e40ab95253b1a398c1b08984fe32269cc948ee",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "f09b3875ecd285cdd8ea61d8e98651fdf6c6452ef86587101a2a2417cb284e8a",
+      "size_bytes": 212,
+      "line_count": 14,
+      "selected_passages": [
+        {
+          "start_line": 1,
+          "end_line": 1,
+          "excerpt": "FROM python:3.10-slim"
+        },
+        {
+          "start_line": 11,
+          "end_line": 11,
+          "excerpt": "ENV RUN_DURATION=19800"
+        },
+        {
+          "start_line": 13,
+          "end_line": 13,
+          "excerpt": "CMD [\"python\", \"main.py\"]"
+        }
+      ]
+    },
+    {
+      "path": "agent-loop.yml",
+      "original_commit": "66933cf26930d89a761081e0c48d43c780ddf16c",
+      "original_git_blob_sha1": "a44476d8d9a80bdf939ea29c31cd18c87eaf8558",
+      "github_blob_sha1_crosscheck": "a44476d8d9a80bdf939ea29c31cd18c87eaf8558",
+      "git_blob_crosscheck_passed": true,
+      "sha256_utf8": "bb51fdfca5fe77194a829c7b0780e51a4a72e2b756dbb5c772fb0027d769abb8",
+      "size_bytes": 801,
+      "line_count": 31,
+      "selected_passages": [
+        {
+          "start_line": 4,
+          "end_line": 4,
+          "excerpt": "    - cron: '0 */6 * * *' # Every 6 hours"
+        },
+        {
+          "start_line": 5,
+          "end_line": 5,
+          "excerpt": "  workflow_dispatch:"
+        },
+        {
+          "start_line": 29,
+          "end_line": 29,
+          "excerpt": "          RUN_DURATION: 21000 # ~5.8 hours to fit in the 6h slot"
+        }
+      ]
+    }
+  ],
+  "excluded_paths": [
+    {
+      "path": ".gitignore",
+      "reason": "Generic boilerplate ignore patterns; unchanged and excluded from originality fingerprints."
+    },
+    {
+      "path": "requirements.txt",
+      "reason": "Third-party dependency manifest; unchanged and excluded from original-source fingerprints."
+    },
+    {
+      "path": "deploy_hive.ps1",
+      "reason": "Excluded from this attribution edit pending separate owner security review; no values are copied into this record."
+    }
+  ]
+}
