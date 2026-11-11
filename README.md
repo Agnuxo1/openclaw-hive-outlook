@@ -5,6 +5,10 @@
 **Copyright year:** 2026 (year of the first tracked commit)
 **Attribution record:** 2026-11-04
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Common language-model adapters, a P2P client and workflow-monitoring utilities bring recurring multi-agent operations into one reusable Python system. This can reduce bespoke integration work when coordinating repository activation, scheduled runs and log inspection. The documented contribution is orchestration infrastructure; dependable autonomous operation and quantitative time savings require live validation beyond the <a href="#project-contents">recorded project contents</a>.</sub>
+<!-- impact-note:end -->
+
 ## Project contents
 
 This repository contains a multi-agent Python system with language-model provider adapters, a P2P API client, and utilities for GitHub repository activation, workflow triggering, run monitoring, and logs.
